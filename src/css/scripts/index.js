@@ -107,10 +107,7 @@ function getRepositoriesUser(userName) {
          repositorierItens += `<li><a href="${repo.html_url}">${repo.name}</a>
          &#129348;${repo.forks} &#11088;${repo.stargazers_count } &#128064;${repo.watchers} &#128736;${repo.language ?? ''}</li>`
 
-         // forks
-         // stargazers_count
-         // watchers
-         // language
+        
          
 
       })
@@ -122,7 +119,7 @@ function getRepositoriesUser(userName) {
    })
 
 }
-getUserProfiele("yago14")
+
 
 
 
